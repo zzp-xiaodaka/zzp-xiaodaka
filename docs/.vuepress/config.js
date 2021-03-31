@@ -54,7 +54,7 @@ module.exports = {
                 },
             ],
         },
-        lastUpdated: '',
+        lastUpdated: '更新时间',
     },
     plugins: [
         '@vuepress/back-to-top',
