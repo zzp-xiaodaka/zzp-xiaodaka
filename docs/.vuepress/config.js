@@ -54,7 +54,7 @@ module.exports = {
                 },
             ],
         },
-        lastUpdated: 'Last Updated',
+        lastUpdated: '',
     },
     plugins: [
         '@vuepress/back-to-top',
