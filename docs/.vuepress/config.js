@@ -38,7 +38,13 @@ module.exports = {
             { text: '源码记录', link: '/interview/' },
         ],
         sidebar: {
-            '/node/koa/': ['base', 'base1', 'base2'],
+            '/node/koa/': [
+                {
+                    title: 'koa',
+                    collapsable: true,
+                    children: ['base', 'base2', 'base3'],
+                },
+            ],
             '/web/js/': [
                 {
                     title: 'javascript 学习',
